@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gy8th - Post</title>
+  <link rel="icon" type="image/x-icon" href="./logocv.png">
+<style>
+    body {
+        margin: 0;
+        background: #1c1f1a; 
+        font-family: Inconsolata, monospace;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #e8e6e3;
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper {
+        width: 600px;
+        padding: 60px 20px 80px;
+    }
+
+    /* Header */
+    .logo {
+        display: inline-block;
+        background: #ff2d6f;
+        color: #000;
+        font-weight: bold;
+        padding: 6px 10px;
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .nav {
+        margin-top: 8px;
+        font-size: 14px;
+    }
+
+    .nav a {
+        color: #e8e6e3;
+        text-decoration: none;
+        margin-right: 12px;
+    }
+
+    .nav a:hover {
+        text-decoration: underline;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid #444;
+        margin: 20px 0 40px;
+    }
+
+    /* Post */
+    .post-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 4px;
+    }
+
+    .post-date {
+        font-size: 13px;
+        color: #aaa;
+        margin-bottom: 25px;
+    }
+
+    .post p {
+        line-height: 1.6;
+        font-size: 14px;
+        margin-bottom: 18px;
+        color: #ddd;
+    }
+
+    .post a {
+        color: #4fc3f7;
+        text-decoration: none;
+    }
+
+    .post a:hover {
+        text-decoration: underline;
+    }
+
+    .highlight {
+        background: #333;
+        padding: 2px 4px;
+        border-radius: 3px;
+        color: #fff;
+    }
+
+    /* Footer icons */
+    .footer {
+        margin-top: 40px;
+        text-align: center;
+        color: #888;
+        font-size: 18px;
+    }
+
+    .footer span {
+        margin: 0 8px;
+        cursor: pointer;
+    }
+
+    .footer span:hover {
+        color: #fff;
+    } .socials a {
+      margin: 0 8px;
+      font-size: 18px;
+      color: #aaa;
+    }
+        .socials{
+           text-align: center;
+        }
+    .socials a:hover {
+      color: #fff;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="wrapper">
+
+    <div class="logo">Gy8Th</div>
+
+    <div class="nav">
+        <a href="./About.html">About+Contact</a>
+      
+        <a href="./Archive.html">Archive</a>
+    </div>
+
+    <hr>
+
+    <div class="post">
+        <div class="post-title">Do We Need Node?</div>
+        <div class="post-date">2026-11-12</div>
+
+        <p>
+            Lately I’ve been thinking a lot about JS modules and the different
+            implementations of module loaders. At the end of the day we’re all
+            mostly settled on CommonJS, but even then we have rough patches
+            supporting AMD, <span class="highlight">require</span>, and global script tags.
+        </p>
+
+        <p>
+            ES6 will hopefully bring with it modules in some form.
+            As the language grows, we’ll see support across modern JS engines.
+        </p>
+
+        <p>
+            Working from that assumption, I have to ask,
+            do we really need Node anymore?
+            Node has baggage. It’s tightly tied to a single JS engine.
+        </p>
+
+        <p>
+            I think Node and npm have been forces of awesome over the past few years.
+            JavaScript has moved forward because of them.
+            But we’re outgrowing them.
+        </p>
+
+        <p>
+            Just imagine: <span class="highlight">#!/usr/bin/env js</span>
+        </p>
+    </div>
+
+    <div class="socials">
+          <a href="https://www.facebook.com/gaithe.nahdhi">f</a>
+        <a href="https://x.com/g8yth">t</a>
+        <a href="mailto:nahdigyth@gmail.com">g</a>
+    </div>
+
+</div>
+
+</body>
+</html>
